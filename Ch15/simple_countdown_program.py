@@ -1,0 +1,9 @@
+import time, subprocess, os
+
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
+
+time_left = 60
+while time_left > 0:
+    print(time_left, end="")
+    time.sleep(1)
+    time_left -= 1
