@@ -2,22 +2,23 @@
 
 ##### Changelog:
 
-<details><summary>15/11-19</summary>
+<details><summary>Changelog</summary>
 <p>
 
-- Added python-docx.
+- 26/11-19
+
+  - Added pyzmail (C:\Users\joak>python -m easy_install pyzmail)
+  - Added imapclient
+
+- 15/11-19
+
+  - Added python-docx.
+
+- 13/11-19
+  - Created list
 
 </p>
 </details>
-
-<details><summary>13/11-19</summary>
-<p>
-
-- List created.
-
-</p>
-</details>
-
 
 | Name              |   Version |
 | ----------------- | --------: |
@@ -54,3 +55,5 @@
 | webencodings      |     0.5.1 |
 | wrapt             |    1.11.2 |
 | python-docx       |    0.8.10 |
+| imapclient        |     2.1.0 |
+| pyzmail           |     1.0.3 |

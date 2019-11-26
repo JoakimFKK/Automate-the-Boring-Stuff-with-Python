@@ -220,6 +220,10 @@
 <p>
 
 1. [Sending Email](Ch16/sending_email.py)
+    - Check to see if there's connection to the SMTP server
+    - Login
+    - Send mail
+2. [IMAP](Ch16/retrieving_and_deleting_emails.py)
 
 </p>
 </details>
