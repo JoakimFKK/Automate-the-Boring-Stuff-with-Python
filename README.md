@@ -224,6 +224,7 @@
     - Login
     - Send mail
 2. [IMAP](Ch16/retrieving_and_deleting_emails.py)
+    - Read documentation.
 
 </p>
 </details>
