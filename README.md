@@ -194,11 +194,17 @@
         - Calculate the elapsed time by subtracting timestamps.
         - Handle the `KeyboardInterrupt` exception so the user can press `CTRL-C` to quit. 
 3. [The `datetime` Module](Ch15/datetime_module.py)
+    - Intro to `datetime` and `datetime.datetime`
 4. [The `timedelta` Data Type](Ch15/timedelta_data.py)
+    - Intro to `datetime.timedelta`
 5. [Pausing until a specific date](Ch15/time_sleep.py)
+    - Intro to `time.sleep()`
 6. [Converting `datetime` Objects into Strings](Ch15/date_strings.py)
+    - How to convert a `datetime` object into a readable format
 7. [Multithreading](Ch15/multithreading.py)
+    - Intro to `threading` and multithreading
 8. [Multithreaded XKCD Downloader](Ch15/xkcd_downloader.py)
+    - Expanded version of [download_xkcd.py](_Finished/Ch11/download_xkcd.py), where `threading` is used to make the process faster.
 
 </p>
 </details>
