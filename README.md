@@ -159,19 +159,19 @@
 <details><summary>Ch14 - Working with CSV Files and JSON Data</summary>
 <p>
 
-    1. CSV
-        1. [The csv Module](_Finished/Ch14/csv_module.py)
-            - Opening and reading.
-        2. [Reading Data from Reader Objects in a `for` Loop](_Finished/Ch14/csv_loop_read.py)
-        3. [Writer Objects](_Finished/Ch14/csv_writer.py)
-        4. [The `delimiter` and `lineterminator` Keyword Arguments](_Finished/Ch14/csv_delimiter_lineterminator.py)
-        5. `[PROJECT]` [Removing the header of CSV files](_Finished/Ch14/remove_csv_header.py)
-    2. JSON
-        1. [JSON and APIs](_Finished/Ch14/json_intro.py)
-            - Intro to JSON module.
-        2. [Writing Json with the `dumps()`](_Finished/Ch14/json_dumps.py)
-        3. `[PROJECT]` [Fetching current weather data](_Finished/Ch14/quick_weather.py)
-            - Needs API key
+1. CSV
+    1. [The csv Module](_Finished/Ch14/csv_module.py)
+        - Opening and reading.
+    2. [Reading Data from Reader Objects in a `for` Loop](_Finished/Ch14/csv_loop_read.py)
+    3. [Writer Objects](_Finished/Ch14/csv_writer.py)
+    4. [The `delimiter` and `lineterminator` Keyword Arguments](_Finished/Ch14/csv_delimiter_lineterminator.py)
+    5. `[PROJECT]` [Removing the header of CSV files](_Finished/Ch14/remove_csv_header.py)
+2. JSON
+    1. [JSON and APIs](_Finished/Ch14/json_intro.py)
+        - Intro to JSON module.
+    2. [Writing Json with the `dumps()`](_Finished/Ch14/json_dumps.py)
+    3. `[PROJECT]` [Fetching current weather data](_Finished/Ch14/quick_weather.py)
+        - Needs API key
 
 </p>
 </details>
@@ -179,39 +179,47 @@
 <details><summary>Ch15 - Keeping Time, Scheduling Tasks, And Launching Programs</summary>
 <p>
 
-    1. [The `time` module](Ch15/time_module.py)
-        - `time.time()`
-        - How to get the time it takes for a function to run.
-        - `time.sleep()`
-        - Rounding numbers.
-    2. `[PROJECT]` [Super Stopwatch](Ch15/super_stopwatch.py)
-        1. The program will do:
-            - Track the amount of time elapsed between presses of the `ENTER` key, with each press starting a new "lap" onthe timer.
-            - Print the lap number, total time, and lap time.
-        2. The code will need to do:
-            - Find the current time by calling `time.time()` and store it as a timestamp at the start of the program, as well as at the start of each lap.
-            - Keep a lap coutner and increment it every time the user presses `ENTER`.
-            - Calculate the elapsed time by subtracting timestamps.
-            - Handle the `KeyboardInterrupt` exception so the user can press `CTRL-C` to quit. 
-    3. [The `datetime` Module](Ch15/datetime_module.py)
-        - Intro to `datetime` and `datetime.datetime`
-    4. [The `timedelta` Data Type](Ch15/timedelta_data.py)
-        - Intro to `datetime.timedelta`
-    5. [Pausing until a specific date](Ch15/time_sleep.py)
-        - Intro to `time.sleep()`
-    6. [Converting `datetime` Objects into Strings](Ch15/date_strings.py)
-        - How to convert a `datetime` object into a readable format
-    7. [Multithreading](Ch15/multithreading.py)
-        - Intro to `threading` and multithreading
-    8. [Multithreaded XKCD Downloader](Ch15/xkcd_downloader.py)
-        - Expanded version of [download_xkcd.py](_Finished/Ch11/download_xkcd.py), where `threading` is used to make the process faster.
-    9. [Launching Other Programs from Python](Ch15/launching_programs.py)
-        - Run program
-        - Run and wait
-        - Passing command line arguments to Popen()
-        - Opening files with default applications
-    10. [Running Other Python Scripts](Ch15/multitrack_programming.py)
-    11. [Project: Simple Countdown Program](Ch15/simple_countdown_program.py)
+1. [The `time` module](_Finished/Ch15/time_module.py)
+    - `time.time()`
+    - How to get the time it takes for a function to run.
+    - `time.sleep()`
+    - Rounding numbers.
+2. `[PROJECT]` [Super Stopwatch](_Finished/Ch15/super_stopwatch.py)
+    1. The program will do:
+        - Track the amount of time elapsed between presses of the `ENTER` key, with each press starting a new "lap" onthe timer.
+        - Print the lap number, total time, and lap time.
+    2. The code will need to do:
+        - Find the current time by calling `time.time()` and store it as a timestamp at the start of the program, as well as at the start of each lap.
+        - Keep a lap coutner and increment it every time the user presses `ENTER`.
+        - Calculate the elapsed time by subtracting timestamps.
+        - Handle the `KeyboardInterrupt` exception so the user can press `CTRL-C` to quit. 
+3. [The `datetime` Module](_Finished/Ch15/datetime_module.py)
+    - Intro to `datetime` and `datetime.datetime`
+4. [The `timedelta` Data Type](_Finished/Ch15/timedelta_data.py)
+    - Intro to `datetime.timedelta`
+5. [Pausing until a specific date](_Finished/Ch15/time_sleep.py)
+    - Intro to `time.sleep()`
+6. [Converting `datetime` Objects into Strings](_Finished/Ch15/date_strings.py)
+    - How to convert a `datetime` object into a readable format
+7. [Multithreading](_Finished/Ch15/multithreading.py)
+    - Intro to `threading` and multithreading
+8. [Multithreaded XKCD Downloader](_Finished/Ch15/xkcd_downloader.py)
+    - Expanded version of [download_xkcd.py](_Finished/Ch11/download_xkcd.py), where `threading` is used to make the process faster.
+9. [Launching Other Programs from Python](_Finished/Ch15/launching_programs.py)
+    - Run program
+    - Run and wait
+    - Passing command line arguments to Popen()
+    - Opening files with default applications
+10. [Running Other Python Scripts](_Finished/Ch15/multitrack_programming.py)
+11. [Project: Simple Countdown Program](_Finished/Ch15/simple_countdown_program.py)
+
+</p>
+</details>
+
+<details><summary>Ch16 - Sending Email and Text Messages</summary>
+<p>
+
+1. [Sending Email](Ch16/sending_email.py)
 
 </p>
 </details>
