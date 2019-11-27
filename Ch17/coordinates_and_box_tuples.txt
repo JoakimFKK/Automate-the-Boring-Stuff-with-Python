@@ -1,0 +1,18 @@
+Image pixels are addressed with x- and y- coordinates, which respectively specify a pixel's horizontal and vertical location in an image.
+The origin is the pixel at the top-left corner of the image and is specified with the notation (0,0).
+The first zero represents the x-coordinate, which starts at zero at the origin and increases going from left to right.
+The second zero represents the y-coordinate, which starts at zero at the origin and increases going down the image.
+
+This bears repeating:
+y-coordinates increase going downward, which is the opposite of how you may remember y-coordinates being used in math class.
+
+Many of Pillow's functions and methods take a box tuple argument.
+This means Pillow is expecting a typle of four integer coordinates that represents a rectangular region in an image.
+The four integers are, in order, as follows:
+LEFT: the x-coordinate of the leftmost edge of the box.
+TOP: the y-cooridnate of the top edge of the box.
+RIGHT: the x-coordinate of one pixel to the right of the rightmost edge of the box. This integer must be greater than the LEFT integer.
+BOTTOM: the y-coordinate of one pixel lower than the bottom edge of the box. This integer must be greater than the top integer.
+
+
+Note that the box includes the left and top coordinates and goes up to but does not include the right and bottom coordinates. For exmaple, the box tuple (3, 1, 9, 6) represents all teh pixels in the black box in [SCREENSHOT].

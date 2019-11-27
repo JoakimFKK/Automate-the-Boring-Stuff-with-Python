@@ -219,12 +219,25 @@
 <details><summary>Ch16 - Sending Email and Text Messages</summary>
 <p>
 
-1. [Sending Email](Ch16/sending_email.py)
+Note! The book is horrible outdated on this topic, and should be be taken with a grain of salt.
+
+1. [Sending Email](_Finished/Ch16/sending_email.py)
     - Check to see if there's connection to the SMTP server
     - Login
     - Send mail
-2. [IMAP](Ch16/retrieving_and_deleting_emails.py)
+2. [IMAP](_Finished/Ch16/retrieving_and_deleting_emails.py)
     - Read documentation.
+
+</p>
+</details>
+
+<details><summary>Ch17 - Manipulating Images</summary>
+<p>
+
+1. [Pillow RGBA intro](Ch17/rgba_test.py)
+1. [Coordinates and Box Tuples](Ch17/coordinates_and_box_tuples.txt)
+
+
 
 </p>
 </details>
