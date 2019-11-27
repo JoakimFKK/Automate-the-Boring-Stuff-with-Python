@@ -254,7 +254,7 @@ Note! The book is horrible outdated on this topic, and should be be taken with a
 <details><summary>Ch18 - Controlling The Keyboard and Mouse With GUI Automation</summary>
 <p>
 
-5. [Drawing on images](Ch17/drawing_on_images.py)
+1. [pyautogui Module](Ch18/pyautogiu_module.py)
 
 
 </p>
