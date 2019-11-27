@@ -234,9 +234,9 @@ Note! The book is horrible outdated on this topic, and should be be taken with a
 <details><summary>Ch17 - Manipulating Images</summary>
 <p>
 
-1. [Pillow RGBA intro](Ch17/rgba_test.py)
-2. [Coordinates and Box Tuples](Ch17/coordinates_and_box_tuples.txt)
-3. [Manipulating images with Pillow](Ch17/manipulating_imgs.py)
+1. [Pillow RGBA intro](_Finished/Ch17/rgba_test.py)
+2. [Coordinates and Box Tuples](_Finished/Ch17/coordinates_and_box_tuples.txt)
+3. [Manipulating images with Pillow](_Finished/Ch17/manipulating_imgs.py)
     - Working with Image data type
     - Creating a new image
     - Cropping images
@@ -244,7 +244,17 @@ Note! The book is horrible outdated on this topic, and should be be taken with a
     - Resizing an Image
     - Rotating and flipping images
     - Changing individual pixels
-4. Project: [Adding a logo](Ch17/adding_logo.py)
+4. Project: [Adding a logo](_Finished/Ch17/adding_logo.py)
+5. [Drawing on images](_Finished/Ch17/drawing_on_images.py)
+
+
+</p>
+</details>
+
+<details><summary>Ch18 - Controlling The Keyboard and Mouse With GUI Automation</summary>
+<p>
+
+5. [Drawing on images](Ch17/drawing_on_images.py)
 
 
 </p>
