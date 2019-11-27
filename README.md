@@ -235,8 +235,16 @@ Note! The book is horrible outdated on this topic, and should be be taken with a
 <p>
 
 1. [Pillow RGBA intro](Ch17/rgba_test.py)
-1. [Coordinates and Box Tuples](Ch17/coordinates_and_box_tuples.txt)
-
+2. [Coordinates and Box Tuples](Ch17/coordinates_and_box_tuples.txt)
+3. [Manipulating images with Pillow](Ch17/manipulating_imgs.py)
+    - Working with Image data type
+    - Creating a new image
+    - Cropping images
+    - Copying and pasting images onto other images
+    - Resizing an Image
+    - Rotating and flipping images
+    - Changing individual pixels
+4. Project: [Adding a logo](Ch17/adding_logo.py)
 
 
 </p>
