@@ -255,6 +255,7 @@ Note! The book is horrible outdated on this topic, and should be be taken with a
 <p>
 
 1. [pyautogui Module](Ch18/pyautogiu_module.py)
+2. [Project: Where is your mouse right now?](Ch18/mouse_now.py)
 
 
 </p>

@@ -32,3 +32,14 @@ def move_mouse_relative():
         pyautogui.moveRel(-100, 0, duration=0.25)
         pyautogui.moveRel(0, -100, duration=0.25)
 
+def get_mouse_position():
+    import time
+    for i in range(5):
+        time.sleep(2)
+        print(pyautogui.position())
+    ## Output:
+    # Point(x=1356, y=239)
+    # Point(x=224, y=200)
+    # Point(x=259, y=747)
+    # Point(x=1307, y=621)
+    # Point(x=1148, y=270)
