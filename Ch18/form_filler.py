@@ -1,14 +1,50 @@
-import pyautogui
+import pyautogui as ghost
 import time
 
-
 def fill_form():
-    name_field_pos = (552, 389)
-    pyautogui.click(name_field_pos)
-    pyautogui.click(name_field_pos)
+    # PyAutoGUI measurements
+    ghost.FAILSAFE = True
+    ghost.PAUSE = 1
+    # Values
+    START_POS = (1925, 62)
+    MY_NAME = "Timmy Shitgrin"
+    GREATEST_FEAR = "Being waterboarded by mayo."
+    WIZARD_POWERS = 2
+    ROBOCOP_RATING = 3
+    ADD_COMMENTS = "I have a need. A need for speed."
+    
+    # Focus on textbox
+    ghost.click(START_POS)
+    ghost.click(START_POS)
+
+    # Name
+    textbox_input(MY_NAME)
+
+    # Greatest fear
+    textbox_input(GREATEST_FEAR)
+
+    # What is the source of your wizard powers? Dropdown
+    for i in range(WIZARD_POWERS):
+        ghost.typewrite(['down'])
+    ghost.press('enter')
+    ghost.press('tab')
+
+    # RoboCop Togglebuttons
+    ghost.typewrite(['right', 'left'])
+    for i in range(ROBOCOP_RATING - 1):
+        ghost.press('right')
+    ghost.press('tab')
+
+    # TXT Additional comments
+    textbox_input(ADD_COMMENTS)
+
+    # Submit.
+    ghost.press('enter')
 
 
-
+def textbox_input(tb_input):
+    ghost.typewrite(tb_input)
+    ghost.press('tab')
 
 if __name__ == "__main__":
     intro_text = 'Starting in '
