@@ -1,5 +1,7 @@
 ## [Table for pip list](_Finished/PipList.md)
 
+Note to self: Go through the book when you're done, and have this readme file from the getgo.
+Don't put things into folders, have it in the same place.
 
 ### Chapters
 
@@ -256,7 +258,14 @@ Note! The book is horrible outdated on this topic, and should be be taken with a
 
 1. [pyautogui Module](Ch18/pyautogiu_module.py)
 2. [Project: Where is your mouse right now?](Ch18/mouse_now.py)
-
+3. [Clicking the mouse](Ch18/click_mouse.py)
+4. [Dragging the mouse](Ch18/drag_mouse.py)
+5. [Draw a spiral](Ch18/spiral_draw.py)
+6. [Scrolling the Mouse](Ch18/scrolling_mouse.py)
+7. [Screenshots](Ch18/getting_a_screenshot.py)
+8. [Analyzing the Screenshot](Ch18/analyzing_the_screenshot.py)
+9. [Project: Extended 'Where is your mouse right now?](Ch18/extend_mouse_now.py)
+10. [Image Recognition](Ch18/image_recognition.py)
 
 </p>
 </details>
