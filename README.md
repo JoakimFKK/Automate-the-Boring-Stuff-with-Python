@@ -266,6 +266,12 @@ Note! The book is horrible outdated on this topic, and should be be taken with a
 8. [Analyzing the Screenshot](Ch18/analyzing_the_screenshot.py)
 9. [Project: Extended 'Where is your mouse right now?](Ch18/extend_mouse_now.py)
 10. [Image Recognition](Ch18/image_recognition.py)
+11. [Controlling the Keyboard](Ch18/controlling_the_keyboard.py)
+12. [Key Names](Ch18/key_names.py)
+13. [Project: Form Filler](Ch18/form_filler.py)
+
+
+1. [](Ch18/.py)
 
 </p>
 </details>
